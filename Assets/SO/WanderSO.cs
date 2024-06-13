@@ -15,7 +15,10 @@ public class WanderSO : StrategySO
         base.SetTransform(newtransform);
         SetRandomDestination();
     }
-
+    public override bool SetBoolAnim()
+    {
+        return base.SetBoolAnim();
+    }
     public override void BuildBehaviour()
     {
         Debug.Log("Wander");

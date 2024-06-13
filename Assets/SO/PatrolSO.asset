@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fc4ad863e87c344aa94f05371c0fac5, type: 3}
   m_Name: PatrolSO
   m_EditorClassIdentifier: 
+  AnimControll: 0
   moveSpeed: 3
   rotationSpeed: 100
   patrolPoints:

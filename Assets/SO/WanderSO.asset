@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc92eede1a5952743bfb2b13fb71cfb0, type: 3}
   m_Name: WanderSO
   m_EditorClassIdentifier: 
+  AnimControll: 0
   moveSpeed: 3
   rotationSpeed: 100

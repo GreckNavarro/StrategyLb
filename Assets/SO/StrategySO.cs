@@ -7,7 +7,7 @@ public abstract class StrategySO : ScriptableObject
 {
 
     protected Transform myTransfom;
-
+    [SerializeField] protected bool AnimControll;
     public virtual void SetTransform(Transform newtransform)
     {
         myTransfom = newtransform;
@@ -16,4 +16,8 @@ public abstract class StrategySO : ScriptableObject
     {
        
     }
+    public virtual bool SetBoolAnim()
+    {
+        return AnimControll;
+    } 
 }

@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaa17ff943dceab4da52dd958d903d74, type: 3}
   m_Name: SleepSO
   m_EditorClassIdentifier: 
+  AnimControll: 1

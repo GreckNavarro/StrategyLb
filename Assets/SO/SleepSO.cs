@@ -9,6 +9,10 @@ public class SleepSO : StrategySO
     {
         base.SetTransform(newtransform);
     }
+    public override bool SetBoolAnim()
+    {
+        return base.SetBoolAnim();
+    }
     public override void BuildBehaviour()
     {
         Debug.Log("Durmiendo");

@@ -16,6 +16,10 @@ public class PatrolSO : StrategySO
         base.SetTransform(newtransform);
         SetInitialDestination();
     }
+    public override bool SetBoolAnim()
+    {
+        return base.SetBoolAnim();
+    }
 
     public override void BuildBehaviour()
     {
